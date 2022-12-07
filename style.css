@@ -169,12 +169,12 @@ a {
   align-items: center;
   justify-content: center;
   gap: 0.5rem;
-  cursor: pointer;
 }
 
 .like-btn,
 .coment-btn {
   width: 25px;
+  cursor: pointer;
 }
 
 .descricao-like,
@@ -246,4 +246,30 @@ form {
 .postar:hover {
   background-color: rgb(91, 91, 183);
   transition: 300ms ease;
+}
+.lixeira {
+  width: 25px;
+  height: 25px;
+  margin-left: 300px;
+  cursor: pointer;
+}
+.btnmde, .btnmdc{
+  width: 85px;
+  height: 45px; 
+  border-radius: 8px;
+  border: solid 2px gray;
+  cursor: pointer;
+  background-color: white;
+  margin-right: 5%;
+  color: rgb(51, 51, 182);
+}
+.btnmde:hover, .btnmdc:hover {
+  background-color: rgb(220, 219, 219);
+  transition: 300ms ease;
+}
+#btnsmd {
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  margin-left: 50%;
 }
